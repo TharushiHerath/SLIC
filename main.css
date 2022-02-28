@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+
+}
+
+
+.header .logo img{
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 600px;
+}
+
+.header .para1{
+    font-size: 37px;
+    font-family: poppins, sans-serif;
+    color: rgba(53, 53, 199, 0.575);
+    margin-top: 35px;
+    text-align: center;
+}
+
+.header .para2{
+    font-size: 37px;
+    font-family: poppins , sans-serif;
+    color: rgb(45, 134, 218);
+    margin-top: 35px;
+    text-align: center;
+}
+
+.header .button .btn1{
+    color: #fff;
+    background-color: rgb(16, 16, 212);
+    margin-top: 35px;
+    width: 100px;
+    height: 50px;
+    margin-left: 600px;
+}
+
+.header  .button .btn1:hover{
+    background-color: rgb(13, 33, 148);
+    color: rgb(204, 238, 11);
+}
+    
+.header .image img{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 160px;
+    transition: transfrom.2s;
+}
+
+.header .image img:hover{
+    transform: scale(1.2);
+}
+
+.footer .end{
+    background-color: rgb(9, 9, 80);
+    color: #fff;
+    height: 7vh;
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.footer .end img{
+    margin-left: 1230px;
+    height: 6vh;
+    width: 100px;
+    background-color: rgb(9, 9, 80);
+    margin-bottom: 10px;
+}
+
